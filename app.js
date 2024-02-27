@@ -21,6 +21,7 @@ app.get('/', (req, res) => {
     titulo: 'Curso de Node'
   })
 })
+
 app.get('/generic', (req, res) => {
   // res.send('404 | Page not found')
   res.render('generic',{
